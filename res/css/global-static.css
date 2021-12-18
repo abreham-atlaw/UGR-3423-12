@@ -1,0 +1,109 @@
+:root{
+	--color-dark: #000000;
+	--color-light: #EEEEEE;
+	--color-white: #FFFFFF;
+}
+
+.nav-toggle-button:hover + .nav-list, .nav-toggle-button:active + .nav-list, .nav-toggle-button:focus + .nav-list,.nav-list:hover, .nav-list:active, .nav-list:focus, .nav-list >li:focus < .navlist {
+	display:flex;
+}
+
+.nav-link{
+	list-style: none;
+}
+
+.link{
+	text-decoration: none;
+	color: inherit;
+}
+
+.link-light{
+	color: var(--color-light);
+}
+
+.link-white{
+	color: var(--color-white)
+}
+
+.link-light:hover{
+	color: #CCCCCC;
+}
+
+.link-dark{
+	color: #000000;
+}
+
+.link-dark{
+	color: #333333;
+}
+
+.bg-dark{
+	background-color: var(--color-dark);
+}
+
+.bg-light{
+	background-color: var(--color-light);
+}
+
+.btn{
+	text-decoration: none;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+	
+}
+
+.btn-dark{
+	background-color: var(--color-dark);
+	color: var(--color-light);
+}
+
+.btn-dark:hover{
+	background-color: var(--color-light);
+	color: var(--color-dark);
+	border-color: var(--color-dark);
+}
+
+.btn-light{
+	background-color: var(--color-light);
+	color: var(--color-dark);
+}
+
+.btn-light:hover{
+	background-color: var(--color-dark);
+	color: var(--color-light);
+	border-color: var(--color-light);
+}
+
+
+.border-light{
+	border-style: solid;
+	border-color: var(--color-light);
+}
+
+.border-dark{
+	border-style: solid;
+	border-color: var(--color-dark);
+}
+
+.border-circle{
+	border-radius: 100%;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.list-none{
+	list-style: none;
+}
+
+.fw-none{
+	font-weight: normal;
+}

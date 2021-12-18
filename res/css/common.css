@@ -1,0 +1,43 @@
+@font-face{
+	font-family: "Affluent";
+    src: url("../webfonts/affluent.ttf");
+}
+
+html, body{
+    margin:0;
+    background-color: var(--color-light);
+	font-family: Affluent, Sans-Serif !important;
+}
+
+
+.top-link{
+	margin-right:8em;
+}
+
+
+.footer-social{
+	width:2em;
+	height: 2em;
+	display: flex;
+}
+
+.footer-social > *{
+	margin:auto;
+}
+
+
+@media(max-width: 768px){
+	html, body{
+	}
+	.main-footer{
+	   clip-path: polygon(15% 0, 0 15%, 0 100%, 100% 100%, 100% 0);
+    }
+}
+@media(min-width: 769px){
+	html, body{
+		font-size:110%;
+	}
+	.main-footer{
+	   clip-path: polygon(10% 0, 0 30%, 0 100%, 100% 100%, 100% 0);
+    }
+}

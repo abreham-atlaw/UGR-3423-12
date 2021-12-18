@@ -1,0 +1,11 @@
+main>header{
+    background-image: url("../images/contact/01.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@media(max-width: 768px){
+    main>header{
+        background-size: 200%;
+    }
+}

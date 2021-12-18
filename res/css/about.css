@@ -1,0 +1,27 @@
+.bg-traingle{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-dark);
+    clip-path: polygon(
+        0 0,
+        100% 100%,
+        0 100%
+    );
+    z-index: 0;
+     
+}
+
+.bg-traingle-reverse{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-dark);
+    clip-path: polygon(
+        0 0,
+        100% 100%,
+        100% 0
+    );
+    z-index: 0;
+}
+

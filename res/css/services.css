@@ -1,0 +1,21 @@
+main > header > .background{
+    position: absolute;
+    width:100%;
+    background-color: var(--color-dark);
+}
+
+main > header > .main{
+    z-index: 100;
+}
+
+@media(max-width: 768px){
+    main > header > .background{
+        clip-path: polygon(0 0, 0 100%, 100% 80%, 100% 0);
+    }
+}
+
+@media(min-width: 768px){
+    main > header > .background{
+        clip-path: polygon(0 0, 0 100%, 100% 60%, 100% 0);
+    }
+}
